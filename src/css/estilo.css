@@ -1,0 +1,160 @@
+body {
+    background-color : black;
+    color: white;
+   
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.conteudo_cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.titulo_principal{
+    font-family: 'PT Mono', monospace;
+    text-shadow: 5px 5px 30px black;
+}
+
+.subtitulo_principal{
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 50px;
+    text-shadow: 5px 5px 30px blue;
+}
+
+
+.foto_perfil {
+    border-radius: 100%;
+    border: 4px solid #233841;
+    width: 180px;
+    margin: 50px 0 0 0;
+}
+
+
+
+.frontEnd img{
+    width: 100px;
+   
+    margin: 0 0 0 10px;
+    float: left;
+}
+
+.backEnd img{
+    width: 100px;
+    height: 60px;
+    margin: 0 10px 0 0;
+    float: right;
+}
+
+#apache {
+    width: 100px;
+    
+}
+
+.apresentacao {
+    margin: 180px 0 0 0;
+    text-align: center;
+
+}
+
+.links_principais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes_principais{
+
+    width: 400px;
+    height: 50px;
+    margin: 15px 0 0 0;
+    border-radius: 20px;
+    font-size: 18px;
+
+}
+
+
+#instagram:hover {
+    cursor: pointer;
+    background-color: #F75503;
+    color: white;
+}
+
+#github:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+#linkedin:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+#whatsapp:hover {
+    cursor: pointer;
+    background-color: rgb(8, 235, 8);
+    color: white;
+}
+
+.assuntos {
+   text-align: center;
+}
+
+.tecnologias_trabalho{
+    border: 2px solid gold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    color: blue;
+}
+
+ul {
+    font-size: 20px;
+}
+
+.front_back {
+    color: red;
+}
+
+.projetos {
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.projetos h2 {
+    text-align: center;
+}
+
+
+.projetos button{
+    cursor: pointer;
+    width: 250px;
+    height: 30px;
+    box-shadow: 1px 2px 20px blue;
+    border-radius: 30px;
+}
+
